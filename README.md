@@ -13,6 +13,10 @@ A documentação completa do projeto está localizada na pasta docs/:
 - Especificação de Requisitos: Detalhes sobre os requisitos funcionais e não funcionais, desenvolvidos em Engenharia de Software I (docs/requirements/).
     - [User Requirements](docs/User%20Requirements/User_requeriments.pdf)
 
+- Modelo Conceitual: Diagrama conceitual e arquivo modelo_conceitual.brM3 (arquivo do software BRModelo) que descreve as entidades, relacionamentos e atributos do sistema na pasta [Conceptual Model](docs/User%20Requirements/Conceptual%20Model/).
+    
+    - [Arquivo Modelo Conceitual](docs/User%20Requirements/Conceptual%20Model/modelo_conceitual.brM3)
+    - [Diagrama Conceitual](docs/User%20Requirements/Conceptual%20Model/diagrama_conceitual.png)
 ## Autor
 
 Este projeto foi desenvolvido pelo aluno Jeferson Solforoso Pompermaier (matrícula 2221101042) como parte do trabalho de Banco de Dados I do curso de Ciência da Computação da Universidade Federal da Fronteira Sul.
