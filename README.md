@@ -14,10 +14,13 @@ A documentação completa do projeto está localizada na pasta docs/:
 
     - [User Requirements](docs/User%20Requirements/User_requeriments.pdf)
 
-- Modelo Conceitual: Diagrama conceitual e arquivo modelo_conceitual.brM3 (arquivo do software BRModelo) que descreve as entidades, relacionamentos e atributos do sistema na pasta [Conceptual Model](docs/Conceptual%20Model/).
+- Modelo Conceitual: Diagrama conceitual e arquivo modelo_conceitual.brM3 (arquivo do software BRModelo) que descreve as entidades, relacionamentos e atributos do sistema na pasta [Models](docs/Models/).
     
-    - [Arquivo Modelo Conceitual](docs/Conceptual%20Model/modelo_conceitual.brM3)
-    - [Diagrama Conceitual](docs/Conceptual%20Model/diagrama_conceitual.png)
+    - [Arquivo Modelo Conceitual](docs/Models/modelo_conceitual.brM3)
+    - [Diagrama Conceitual](docs/Models/diagrama_conceitual.png)
+
+- Modelo Relacional: Diagrama relacional que descreve as tabelas, colunas e relacionamentos do banco de dados na pasta [Models](docs/Models/).
+    - [Imagem Modelo Relacional](docs/Models/ModeloRelacional.png)
 
 ## Autor
 
