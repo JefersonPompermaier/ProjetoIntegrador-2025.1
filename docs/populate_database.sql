@@ -22,7 +22,14 @@ INSERT INTO Usuario (cpf, rg, senha, nome, nome_de_usuario, cargo, permissoes, t
 ('99138928744', '3657686', '$2b$10$G8i9o0p1a2s3d4f5g6h7j8k9l0m1n2b3v4c5x6z7q1w2e3r4t5y', 'Camila Oliveira', 'camil', 'Técnico', 'Manutenção', 2),
 ('10149039855', '4768797', '$2b$10$H9o0p1a2s3d4f5g6h7j8k9l0m1n2b3v4c5x6z7q1w2e3r4t5y6u', 'Diego Ferreira', 'diegof', 'Técnico', 'Manutenção', 2);
 
-INSERT INTO Ordem_de_Servico (data, data_de_entrega, reclamacoes_e_necessidades, status, valor, descricao_do_servico, cliente_cpf_cnpj, usuario_cpf) VALUES
+INSERT INTO Produto (nome, preco_venda) VALUES
+('Mouse sem fio', 89.90),
+('Teclado ABNT2', 120.00),
+('SSD 480GB', 250.00),
+('Memória RAM 8GB DDR4', 180.00),
+('Fonte ATX 500W', 220.50);
+
+INSERT INTO Ordem_de_Servico (data_abertura, data_entrega, reclamacoes_e_necessidades, status, valor_total, descricao_servico, cliente_cpf_cnpj, usuario_cpf) VALUES
 ('2025-07-01', '2025-07-10', 'Notebook não liga', 'Em execução', 250.00, 'Diagnóstico de hardware', '12345678901', '22061251077'),
 ('2025-07-02', '2025-07-12', 'Impressora com erro de tinta', 'Aguardando peça', 150.00, 'Troca de cartucho', '23456789012', '33072362188'),
 ('2025-07-03', '2025-07-15', 'Computador lento', 'Em processo', 300.00, 'Otimização de software', '34567890123', '44083473299'),
@@ -38,3 +45,9 @@ INSERT INTO Ordem_de_Servico (data, data_de_entrega, reclamacoes_e_necessidades,
 ('2025-07-13', NULL, 'Fonte barulhenta', 'Em execução', 180.00, 'Substituição de fonte', '34567890123', '55094584300'),
 ('2025-07-14', '2025-08-01', 'Erro de impressão', 'Em processo', 120.00, 'Manutenção de impressora', '45678901234', '66105695411'),
 ('2025-07-15', NULL, 'PC não inicializa', 'Aguardando peça', 450.00, 'Diagnóstico completo', '56789012345', '77116706522');
+
+INSERT INTO Ordem_de_Servico_Produto (ordem_servico_id, produto_id, quantidade, valor_unitario) VALUES
+(2, 5, 1, 220.50),
+(3, 3, 1, 250.00),
+(3, 4, 2, 180.00),
+(8, 3, 1, 250.00);
